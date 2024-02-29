@@ -1,0 +1,127 @@
+@media (min-width: 300px) and (max-width: 1279px){
+
+    .contanier{
+        display: flex;
+        border-radius: 3%;
+        width: 350px;
+        height: 600px;
+        background: #DEDEDE;
+        border: 2px solid rgb(180, 180, 180);
+        box-shadow: 0 7px 10px 0 rgb(170, 170, 170);
+        align-items: center;
+    }
+    
+    .login{
+        border: 2px solid black;
+        border-radius: 8px;
+        width: 250px;
+        height: 500px;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        gap: 30px;
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .font{
+        margin-bottom: 15%;
+    }
+    
+    .input-login{
+        display: grid;
+        width: 220px;  
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+        margin-bottom: 10%;
+    }
+
+    .icon-phone{
+        display: block;
+    }
+
+    .icon-desktop{
+        display: none;
+    }
+    
+    #botao{
+        margin-bottom: 10%;
+        width: 180px;
+        height: 40px;
+        border: 1px solid #a0a0a0;
+        border-radius: 8px;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    #botao:active{
+        border: 1px solid rgb(46, 224, 46);
+        background-color: rgb(203, 252, 193);
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1920px){
+    .contanier{
+        display: flex;
+        border-radius: 3%;
+        width: 800px;
+        height: 600px;
+        background: #DEDEDE;
+        border: 2px solid rgb(180, 180, 180);
+        box-shadow: 0 7px 10px 0 rgb(170, 170, 170);
+        align-items: center;
+    }
+
+    .login{
+        border: 2px solid black;
+        border-radius: 8px;
+        width: 650px;
+        height: 500px;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        gap: 30px;
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .font{
+        margin-top: 10%;
+    }
+    
+    .input-login{
+        display: grid;
+        width: 220px;  
+        grid-template-columns: 1fr 1fr;
+        margin-right: 11.2%;
+        gap: 20px;
+        margin-bottom: 4%;
+    }
+
+    .icon-phone{
+        display: none;
+    }
+
+    .icon-desktop{
+        display: block;
+    }
+    
+    #botao{
+        margin-bottom: 10%;
+        width: 180px;
+        height: 40px;
+        border: 1px solid #a0a0a0;
+        border-radius: 8px;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    #botao:active{
+        border: 1px solid rgb(46, 224, 46);
+        background-color: rgb(203, 252, 193);
+    }
+}
