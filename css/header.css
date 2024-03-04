@@ -1,0 +1,19 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: auto;
+    height: 80px;
+    background-color: rgb(122, 45, 45);
+    justify-content: center;
+    align-items: center;
+}
+
+.img-logo{
+    width: 180px;
+    height: 65px;
+    padding: 5px;
+}

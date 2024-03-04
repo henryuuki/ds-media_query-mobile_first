@@ -1,0 +1,26 @@
+main{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    text-align: right;
+    padding: 20px;
+}
+
+.img-wh{
+    display: flex;
+    width: 600px;
+    height: 380px;
+    margin: auto;
+}
+
+.content{
+    width: 800px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
