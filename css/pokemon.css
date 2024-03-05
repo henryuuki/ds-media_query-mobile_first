@@ -2,34 +2,47 @@
     *{
         box-sizing: border-box;
     }
-}
 
+    html, body{
+        text-align: center;
+    }
 
-@media (min-width: 1280px) and (max-width: 1920px){
     main{
         height: 100vh;
         justify-content: center;
         align-items: center;
     }
-    
-    .input{
-        text-align: right;
-        padding: 20px;
-    }
-    
-    .img-wh{
-        display: flex;
-        width: 600px;
-        height: 380px;
+
+    #contanier{
+        width: 200px;
+        border: 4px solid rgb(170, 40, 40);
+        border-radius: 10px;
         margin: auto;
+        margin-top: 10%;
     }
-    
-    .content{
-        width: 800px;
-        height: 500px;
+}
+
+
+@media (min-width: 1280px) and (max-width: 1920px){
+    *{
+        box-sizing: border-box;
+    }
+
+    html, body{
+        text-align: center;
+    }
+
+    main{
+        height: 100vh;
         justify-content: center;
         align-items: center;
-        text-align: center;
+    }
+
+    #contanier{
+        width: 200px;
+        border: 4px solid rgb(170, 40, 40);
+        border-radius: 10px;
         margin: auto;
+        margin-top: 10%;
     }
 }
