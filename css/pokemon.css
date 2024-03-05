@@ -1,30 +1,6 @@
-@media (min-width: 420px) and (max-width: 1279px){
-    main{
-        width: auto;
-        height: 50vh;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .input{
-        text-align: right;
-        padding: 20px;
-    }
-
-    .img-wh{
-        display: flex;
-        width: 300px;
-        height: 180px;
-        margin: auto;
-    }
-
-    .content{
-        width: 400px;
-        height: 350px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: auto;
+@media (min-width: 300px) and (max-width: 1279px){
+    *{
+        box-sizing: border-box;
     }
 }
 
