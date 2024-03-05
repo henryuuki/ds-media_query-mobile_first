@@ -1,10 +1,11 @@
 document.getElementById('btn-search').onclick = loadapk;
+let inputname = document.getElementById('search-poke')
 
 function loadapk(){
-    let url = 'https://pokeapi.co/api/v2/pokemon/{id or name}/';
+    let url = 'https://pokeapi.co/api/v2/pokemon/';
+    
 
-
-    fetch(url)
+    fetch(url + inputname.value.trim())
         .then((response) => {
             return response.json();
         })
